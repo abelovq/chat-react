@@ -1,0 +1,26 @@
+.ctx-menu-wrapper {
+  display: block;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 2;
+}
+
+.ctx-menu {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 5px;
+  background: #d3d3d3;
+  width: 165px;
+  list-style: none;
+  border-radius: 5px;
+
+  color: #000;
+  li:hover {
+    background-color: #b9b6b6;
+    border-radius: 5px;
+  }
+}
+
+li {
+  padding: 5px 10px;
+}
